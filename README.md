@@ -1,4 +1,6 @@
 [![ 由Wechaty提供 ](https://img.shields.io/badge/Powered%20By-Wechaty-blue.svg)](https://github.com/chatie/wechaty)
+[![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-green.svg)](https://github.com/chatie/wechaty)
+[![Wechaty开源激励计划](https://img.shields.io/badge/Wechaty-开源激励计划-green.svg)](https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty)
 [![node version](https://img.shields.io/badge/node-%3E%3D10-blue.svg)](http://nodejs.cn/download/)
 [![node version](https://img.shields.io/badge/wechaty-%3E%3D0.32.5-blue.svg)](https://github.com/Chatie/wechaty)
 ![](https://img.shields.io/badge/Window-green.svg)
@@ -7,7 +9,7 @@
 [![](https://img.shields.io/badge/Docker-red.svg)]()
 
 
-## 智能微秘书
+## Twitter2Wechat
 
 让你闲置的微信号成为你的日常小秘书（没有闲置的也没关系，添加我的小助手微信号，给你分配一个小秘书）。
 
@@ -47,8 +49,8 @@ npm i -g node-gyp
 如果是win平台，还需进行
 
 
-``` 
-npm i -g windows-build-tools 
+```
+npm i -g windows-build-tools
 ```
 
 ### 配置ipad token
