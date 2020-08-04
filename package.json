@@ -1,16 +1,18 @@
 {
-  "name": "monitor-twitter",
+  "name": "Twitter2Wechat",
   "version": "1.0.0",
-  "description": "Monitor Twitter for tweets from a certain user that match a given pattern.",
+  "description": "Sync Twitter post to Wechat group chatroom.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/matthewpalmer/monitor-twitter.git"
+    "url": "git://github.com/afterever/Twitter2Wechat.git"
   },
   "keywords": [
+    "wechaty",
+    "wechat",
     "monitor",
     "twitter",
     "watch",
@@ -18,10 +20,10 @@
     "tweet",
     "match"
   ],
-  "author": "Matthew Palmer",
+  "author": "Steve",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/matthewpalmer/monitor-twitter/issues"
+    "url": "https://github.com/afterever/Twitter2Wechat/issues"
   },
   "dependencies": {
     "bufferutil": "^4.0.1",
