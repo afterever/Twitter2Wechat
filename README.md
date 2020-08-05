@@ -1,12 +1,8 @@
-[![ 由Wechaty提供 ](https://img.shields.io/badge/Powered%20By-Wechaty-blue.svg)](https://github.com/chatie/wechaty)
-[![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-green.svg)](https://github.com/chatie/wechaty)
+[![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-blue.svg)](https://github.com/chatie/wechaty)
+[![](https://img.shields.io/badge/Powered%20By-Wechaty-green.svg)](https://github.com/chatie/wechaty)
 [![Wechaty开源激励计划](https://img.shields.io/badge/Wechaty-开源激励计划-green.svg)](https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty)
 [![node version](https://img.shields.io/badge/node-%3E%3D10-blue.svg)](http://nodejs.cn/download/)
-[![node version](https://img.shields.io/badge/wechaty-%3E%3D0.32.5-blue.svg)](https://github.com/Chatie/wechaty)
-![](https://img.shields.io/badge/Window-green.svg)
-![](https://img.shields.io/badge/Mac-yellow.svg)
-![](https://img.shields.io/badge/Centos-blue.svg)
-[![](https://img.shields.io/badge/Docker-red.svg)]()
+[![node version](https://img.shields.io/badge/wechaty-%3E%3D0.40.5-blue.svg)](https://github.com/Chatie/wechaty)
 
 
 ## Twitter2Wechat
