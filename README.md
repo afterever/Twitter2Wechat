@@ -59,58 +59,18 @@ module.exports = {
 第二步 `node index.js`
 
 
-## Heroku 部署 （推荐）
-一、创建一个`env.js`，并在`env.js`中填入相关的配置参数如下
-
-```javascript
-module.exports = {
-    apiKey: '', //智能微秘书平台APIKEY （必填）
-    apiSecret: '',//智能微秘书平台APISECRET （必填）
-    ipadToken: '', // 如果有wechaty的ipad token可以填到此处，没有的话就不用填写 （非必填）
-}
-
-```
-
-二、拉取镜像
-
-```shell script
-docker pull aibotk/wechat-assistant
-```
-
-三、运行镜像
-
-```shell script
-docker run -v 绝对路径/env.js:/home/app/env.js -d  aibotk/wechat-assistant
-```
-四、登录智能微助手平台扫码登录即可
-登录地址：[https://wechat.aibotk.com/](https://wechat.aibotk.com/)
+## 服务器Heroku 部署 (推荐)
+代码写完了，我们需要一个服务器24/7运行，且最好是免费的:)
+Wechaty的主要开发者Huan LI (李卓桓)写过一篇[博客文章](https://wechaty.github.io/heroku-deploy-button-for-wechaty-starter-template/)，且附带有[Heroku+Wechaty Getting Started例程](https://github.com/wechaty/heroku-wechaty-getting-started)，对我们的帮助很大。
+Heroku免费提供每月500小时的服务器时间，分配到每天，几乎是20小时了，基本上够用了。他们提供的[Node.js Tutorial教程](https://devcenter.heroku.com/articles/getting-started-with-nodejs?singlepage=true)做，也写的非常详尽，一步步照着做完，也就学会了。
+在他们的服务器上部署后，只要修改Procfile就可以带参数的运行了。
 
 
-## 提前体验
-如果很不幸你的微信无法登录网页端，同时`ipadtoken`还没有申请通过，请不要伤心，你还有我的小助手可以用来抚慰心伤，扫描下方二维码，我的智能微秘书会自动通过你的申请
-
-![](https://user-gold-cdn.xitu.io/2019/2/28/1693401c6c3e6b02?w=430&h=430&f=png&s=53609)
-
-
-## 捐助
-如果您认为这个项目对你有所帮助，是否可以为它捐助一点资金呢？
-
-不管钱多钱少，您的捐助将会激励我持续开发新的功能！🎉
-
-感谢您的支持！
-
-捐助方法如下：
-
-
-<div style="display: flex;justify-content: flex-start">
-<img width="675" height="400" src="https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg" />
-</div>
-
-
-## 更多功能说明
-移步：[https://www.xkboke.com/web-inn/secretary/client.html](https://www.xkboke.com/web-inn/secretary/client.html)
+## 最后
+本项目属于个人兴趣开发，开源出来是为了技术交流，请勿使用此项目做违反微信规定或者其他违法事情。
+建议使用小号进行测试，有被微信封禁网页端登录权限的风险（客户端不受影响），请确保自愿使用。
+如果有更多的问题，请留言，谢谢!
 
 
 ## 更新日志
-
-[更新日志](./CHANGELOG.md)
+./CHANGELOG.md (to be added)
