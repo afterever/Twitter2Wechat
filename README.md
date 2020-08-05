@@ -18,6 +18,7 @@
 本项目是基于[wechaty](https://github.com/Chatie/wechaty)的个人开源项目，更多关于`wechaty`项目说明及api文档可以移步：[wechaty介绍](https://wechaty.js.org/v/zh/)
 如果你拥有了[wechaty](https://github.com/wechaty/wechaty)发放的Padplus token，那么也可以直接使用本项目 （[PadPlus token 申请地址](https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty)）
 
+
 ## 主要程序
 ```shell script
 1. index.js  // 项目主程序
@@ -26,10 +27,7 @@
 ```
 
 ## 配置
-`env.js` 文件中填入智能微秘书的apiKey 和 apiSecret [注册地址](https://wechat.aibotk.com/#/signup)
-
-
-// Please get all the keys and save this file as credentials.js
+我们提供了credentials_example.js，如下所示。请移步[申请Twitter Developer API](https://developer.twitter.com/en/docs/basics/authentication/overview)四个token填入即可运行。
 ```shell script
 module.exports = {
   // Twitter Devloper Account Credentials
@@ -41,7 +39,7 @@ module.exports = {
 
   // Twitter ID you wanted to monitor
   twitter_user_id: "fill_in_your_twitter_account",
-  
+
   // WeChaty and Wechat information
   puppet_padplus_token: 'fill_in_your_puppet_padplus_token',
   wechat_chatroom_id : '555456789@chatroom',
@@ -50,36 +48,12 @@ module.exports = {
 
 
 ## 运行
-
 克隆本项目，并进入项目根目录
-
 第一步 `npm install`
+第二步 `node index.js`(如果报错pm2找不到，请执行`npm install pm2 -g` 后重新执行此步骤)
 
-第二步 `npm run pm2`(如果报错pm2找不到，请执行`npm install pm2 -g` 后重新执行此步骤)
-
-
-## 高级功能(无法登录微信网页端朋友的福音)
-
-
-
-### 提前安装依赖
-
-```
-npm i -g node-gyp
-```
-
-如果是win平台，还需进行
-
-
-```
-npm i -g windows-build-tools
-```
-
-### 配置ipad token
-在`env.js`里填入你的ipadtoken即可
 
 ## docker 部署 （推荐）
-
 一、创建一个`env.js`，并在`env.js`中填入相关的配置参数如下
 
 ```javascript
@@ -103,12 +77,10 @@ docker pull aibotk/wechat-assistant
 docker run -v 绝对路径/env.js:/home/app/env.js -d  aibotk/wechat-assistant
 ```
 四、登录智能微助手平台扫码登录即可
-
 登录地址：[https://wechat.aibotk.com/](https://wechat.aibotk.com/)
 
 
 ## 提前体验
-
 如果很不幸你的微信无法登录网页端，同时`ipadtoken`还没有申请通过，请不要伤心，你还有我的小助手可以用来抚慰心伤，扫描下方二维码，我的智能微秘书会自动通过你的申请
 
 ![](https://user-gold-cdn.xitu.io/2019/2/28/1693401c6c3e6b02?w=430&h=430&f=png&s=53609)
