@@ -51,6 +51,7 @@ bot.start() // wechaty is started
 // Derived from https://github.com/matthewpalmer/monitor-twitter, many thanks!
 var m = new Monitor(credentials);
 // console.log(m); // this prints Twitter account info
+
 // polling every 30 seconds, this can be changed in the environment_settings
 m.start(credentials.twitter_user_id, '', env_settings .pooling_frequency * 1000);
 m.on(credentials.twitter_user_id, function(tweet) {
