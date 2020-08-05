@@ -7,7 +7,7 @@ const {
   log,
 }               = require('wechaty')
 const { PuppetPadplus } = require('wechaty-puppet-padplus')
-var Monitor = require('./monitor.js');
+var Monitor = require('./twitter_monitor.js');
 
 var credentials = require('./credentials.js'); // SECRET
 var env_settings = require('./environment_settings.json')[process.env.NODE_ENV || 'DEV']; // this stores the DEV & PROD settings
@@ -51,18 +51,15 @@ bot.start() // await
 var m = new Monitor(credentials);
 // console.log(m); // this prints Twitter account info
 
-m.start(common_settings.twitter_user_id, '', env_settings .pooling_frequency * 1000); // polling every 30 seconds
-m.on(common_settings.twitter_user_id, function(tweet) {
+m.start(credentials.twitter_user_id, '', env_settings .pooling_frequency * 1000); // polling every 30 seconds
+m.on(credentials.twitter_user_id, function(tweet) {
   console.log('Received a new tweet:\n', tweet);
-  sayTweetInRoom(tweet.text.toString(), env_settings.chatroom_id + '@chatroom')
+  sayTweetInRoom(tweet.text.toString(), credentials.wechat_chatroom_id)
 });
 
 
 async function sayTweetInRoom(tweetText, roomID) {
   log.info('Running', 'sayTweetInRoom()')
-  // .on('message', async function(msg) {
-  //  console.log(msg.toString())
-  // })
   try {
     // wait the bot for logging in
     while (!bot.logonoff()) {

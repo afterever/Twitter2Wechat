@@ -16,9 +16,7 @@ function Monitor(credentials) {
 
 
   var self = this;
-
   this.T = T;
-
   // The events we emit.
   var Event = {
     NewMatchingTweet: 'NewMatchingTweet'
@@ -27,9 +25,7 @@ function Monitor(credentials) {
   var eventEmitter = new events.EventEmitter();
 
   this.newTweet = eventEmitter;
-
   this.mostRecentTweet = {};
-
   this.watchTwitter = function watchTwitter(account, pattern, interval) {
     setInterval(function() {
       self.pollTwitter(account, pattern);

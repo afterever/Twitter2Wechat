@@ -6,6 +6,8 @@ module.exports = {
   consumer_secret: 'fill_in_your__consumer_secret',
   access_token: 'fill_in_your__access_token',
   access_token_secret: 'fill_in_your__access_token_secret',
+  twitter_user_id: "fill_in_your_twitter_account",
   // WeChaty Token
-  puppet_padplus_token: 'puppet_padplus_fill_in_your_token',
+  puppet_padplus_token: 'fill_in_your_puppet_padplus_token',
+  wechat_chatroom_id : '555456789@chatroom', 
 }
