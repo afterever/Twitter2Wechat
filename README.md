@@ -3,22 +3,19 @@
 [![node version](https://img.shields.io/badge/node-%3E%3D10-blue.svg)](http://nodejs.cn/download/)
 [![node version](https://img.shields.io/badge/wechaty-%3E%3D0.40.5-blue.svg)](https://github.com/Chatie/wechaty)
 
-
 ## Twitter2Wechat
+当前，[IFTTT](https://ifttt.com)应用相当广泛，连接了很多日常的应用，但是微信由于各种原因，尚不能接入。
 
+感恩Wechaty API的出现，这个Twitter2Wechat 通过监听Twitter，在探测到有新Tweet发布后，会同步到预设的微信群里。
+
+一个实际的应用是，我们有一个实况足球的小联盟[PESNALeague](https://www.PESNALeague.com)。如果有玩家在YouTube或Twitch上直播比赛对战的话，通过预设的IFTTT,直播的URL会在Twitter发布。之后，通过这个wechaty机器人，实现了在微信群的通告功能。
+
+## 效果预览
 <div style="display: flex;justify-content: flex-start">
-<img width="675" height="400" src="https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg" />
+[ ![](https://github.com/afterever/Twitter2Wechat/blob/master/images/small_Headerline_twitter2wechat.jpg) ](https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg)
 </div>
 
-[ ![](https://github.com/afterever/Twitter2Wechat/blob/master/images/small_Headerline_twitter2wechat.jpg) ](https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg)
 
-
-
-让你闲置的微信号成为你的日常小秘书（没有闲置的也没关系，添加我的小助手微信号，给你分配一个小秘书）。
-
-帮你创建私人定时任务，每日提醒，纪念日提醒，当日提醒。当然基础的给女朋友的每日说功能也是必备的，而且小助手版每日说为那些非常优秀的程序员准备了多女朋友定时发送提醒功能。
-
-同时自带微信机器人功能，群资讯消息定时发送，群定时提醒功能，群机器人聊天，垃圾分类，天气查询，土情话查询，老黄历查询，顺口溜查询等众多功能
 
 ## 项目说明
 
