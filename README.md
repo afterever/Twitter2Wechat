@@ -12,7 +12,7 @@
 ## Twitter2Wechat
 
 <div style="display: flex;justify-content: flex-start">
-<img width="300" height="350" src="https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg" />
+<img width="675" height="400" src="https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg" />
 </div>
 
 
