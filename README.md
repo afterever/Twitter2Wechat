@@ -22,8 +22,9 @@
 ## 主要程序
 ```shell script
 1. index.js  // 项目主程序
-2. twitter_monitor.js  // 通过监听Twitter
+2. twitter_monitor.js  // 监听Twitter的主程序
 3. credentials.js  // 存放所有的authentication keys
+4. environment_settings.json  // 一些程序设置，比如Twitter polling frequency等
 ```
 
 ## 配置
