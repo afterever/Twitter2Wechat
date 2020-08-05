@@ -47,13 +47,19 @@ module.exports = {
 ```
 
 
+## 核心代码
+首先，感谢[Monitor Twitter](https://github.com/matthewpalmer/monitor-twitter)的开发者，我们发展了他们的主程序，实现了对Twitter账号的监听，具体的实现请参考twitter_monitor.js文件。
+核心的程序如下图，在每30秒poll一次Twitter的情况下，如果检测到有新Tweet发布，我们抓取Tweet的text()，然后同步发布到微信Wechat预设的房间内。
+[![Core Code](https://github.com/afterever/Twitter2Wechat/blob/master/images/core_code.jpg)](https://github.com/afterever/Twitter2Wechat/blob/master/images/core_code.jpg)
+
+
 ## 运行
 克隆本项目，并进入项目根目录
 第一步 `npm install`
-第二步 `node index.js`(如果报错pm2找不到，请执行`npm install pm2 -g` 后重新执行此步骤)
+第二步 `node index.js`
 
 
-## docker 部署 （推荐）
+## Heroku 部署 （推荐）
 一、创建一个`env.js`，并在`env.js`中填入相关的配置参数如下
 
 ```javascript

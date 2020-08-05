@@ -1,3 +1,4 @@
+// Derived from https://github.com/matthewpalmer/monitor-twitter, many thanks!
 var fs = require('fs');
 var events = require('events');
 var spawn = require('child_process').spawn;
