@@ -4,27 +4,17 @@
 [![node version](https://img.shields.io/badge/wechaty-%3E%3D0.40.5-blue.svg)](https://github.com/Chatie/wechaty)
 
 ## Twitter2Wechat
-<div style="display: flex;justify-content: flex-start">
-<img width="675" height="400" src="https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg" />
-</div>
-
 [ ![](https://github.com/afterever/Twitter2Wechat/blob/master/images/small_Headerline_twitter2wechat.jpg) ](https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg)
-
-
 当前，[IFTTT](https://ifttt.com)应用相当广泛，连接了很多日常的应用，但是微信由于各种原因，尚不能接入。
-
 感恩Wechaty API的出现，这个Twitter2Wechat 通过监听Twitter，在探测到有新Tweet发布后，会同步到预设的微信群里。
-
-一个实际的应用是，我们有一个实况足球的小联盟[PESNALeague](https://www.PESNALeague.com)。如果有玩家在YouTube或Twitch上直播比赛对战的话，通过预设的IFTTT,直播的URL会在Twitter发布。之后，通过这个wechaty机器人，实现了在微信群的通告功能。
+一个实际的应用是，我们有一个实况足球的小联盟[PESNALeague](https://www.PESNALeague.com)。如果有玩家在YouTube或Twitch上直播比赛对战的话，通过预设的IFTTT, 直播的URL会在Twitter发布。
+之后，通过这个wechaty机器人，实现了在微信群的通告功能。
 
 
 
 
 ## 效果预览
-
-<div style="display: flex;justify-content: flex-start">
 [![Header Picture](https://github.com/afterever/Twitter2Wechat/blob/master/images/small_Headerline_twitter2wechat.jpg)](https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg)
-</div>
 
 
 
@@ -113,7 +103,9 @@ docker run -v 绝对路径/env.js:/home/app/env.js -d  aibotk/wechat-assistant
 捐助方法如下：
 
 
-
+<div style="display: flex;justify-content: flex-start">
+<img width="675" height="400" src="https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg" />
+</div>
 
 ## 更新日志
 
