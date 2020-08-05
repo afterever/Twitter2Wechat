@@ -6,7 +6,7 @@
         "pooling_frequency": 30,
     },
     "COMMON": {
-        "app_return_URL": "http://www.Twitter2Wechat.com",
+        "app_return_URL": "http://www.PESNALeague.com",
         "wechat_login_name": "Twitter2Wechat"
     }
 }
