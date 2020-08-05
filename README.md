@@ -11,6 +11,14 @@
 
 ## Twitter2Wechat
 
+<div style="display: flex;justify-content: flex-start">
+<img width="300" height="350" src="https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg" />
+</div>
+
+
+
+
+
 让你闲置的微信号成为你的日常小秘书（没有闲置的也没关系，添加我的小助手微信号，给你分配一个小秘书）。
 
 帮你创建私人定时任务，每日提醒，纪念日提醒，当日提醒。当然基础的给女朋友的每日说功能也是必备的，而且小助手版每日说为那些非常优秀的程序员准备了多女朋友定时发送提醒功能。
@@ -102,10 +110,7 @@ docker run -v 绝对路径/env.js:/home/app/env.js -d  aibotk/wechat-assistant
 捐助方法如下：
 
 
-<div style="display: flex;justify-content: flex-start">
-<img width="300" height="350" src="http://image.xkboke.com/web-inn/aibotk-weixin.png" />
-<img width="300" height="350" src="http://image.xkboke.com/web-inn/aibotk-alipay.png" />
-</div>
+
 
 ## 更新日志
 
