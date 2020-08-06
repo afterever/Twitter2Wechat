@@ -11,7 +11,7 @@
 
 
 ## 效果预览
-[![Header Picture](https://github.com/afterever/Twitter2Wechat/blob/master/images/small_Headerline_twitter2wechat.jpg)](https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg)
+[![Header Picture](https://github.com/afterever/Twitter2Wechat/blob/master/images/small_headerline_twitter2wechat.jpg)](https://github.com/afterever/Twitter2Wechat/blob/master/images/Headerline_twitter2wechat.jpg)
 
 
 ## 项目说明
@@ -19,13 +19,15 @@
 如果你拥有了[wechaty](https://github.com/wechaty/wechaty)发放的Padplus token，那么也可以直接使用本项目 （[PadPlus token 申请地址](https://github.com/juzibot/Welcome/wiki/Everything-about-Wechaty)）
 
 
-## 主要程序
-```shell script
-1. index.js  // 项目主程序
-2. twitter_monitor.js  // 监听Twitter的module
-3. credentials.js  // 存放所有的authentication keys
-4. environment_settings.json  // 一些程序设置，比如Twitter polling frequency等
+## 程序结构
+```js
+|---index.js                   # 入口文件
+|---twitter_monitor.js         # 监听Twitter的module
+|---credentials.js             # 存放所有的authentication keys
+|---environment_settings.json  # 设置，比如Twitter polling frequency等等
+|-- package.json
 ```
+
 
 ## 配置
 我们提供了credentials_example.js，如下所示。请移步[申请Twitter Developer API](https://developer.twitter.com/en/docs/basics/authentication/overview)四个token填入即可运行。
@@ -67,11 +69,17 @@ Heroku免费提供每月500小时的服务器时间，分配到每天，几乎�
 在他们的服务器上部署后，只要修改Procfile就可以带参数的运行了。
 
 
+## 延展与将来
+国内抖音如火如荼，直播带货这些将来可能都会与微信连接。这些直播的信息将来有可能可以通过微信，直接推送到客户的手机上，方便用户获取最新消息。
+
+
 ## 最后
 本项目属于个人兴趣开发，开源出来是为了技术交流，请勿使用此项目做违反微信规定或者其他违法事情。
 建议使用小号进行测试，有被微信封禁网页端登录权限的风险（客户端不受影响），请确保自愿使用。
-如果有更多的问题，请留言，谢谢!
 
 
-## 更新日志
-./CHANGELOG.md (to be added)
+### 致谢
+非常感谢Wechaty团队提供微信机器人SDK，让开发者可以专注于业务代码。  
+感谢句子互动提供的pad协议版token。  
+wechaty: <https://wechaty.github.io/>  
+juzibot: <https://www.juzibot.com>
