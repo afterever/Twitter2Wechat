@@ -99,4 +99,5 @@ Heroku免费提供每月500小时的服务器时间，分配到每天，几乎�
 ### 致谢
 
 感谢[wechaty](https://github.com/wechaty/wechaty)团队提供微信机器人SDK，让开发者可以专注于业务代码
+
 感谢[句子互动juzibot](https://www.juzibot.com/)提供的iPad协议版token
