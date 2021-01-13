@@ -35,7 +35,7 @@
     "twit": "^2.2.11",
     "underscore": "^1.10.2",
     "utf-8-validate": "^5.0.2",
-    "wechaty": "^0.46.2",
+    "wechaty": "^0.50.7",
     "wechaty-puppet-padplus": "^0.6.3"
   },
   "engines": {
